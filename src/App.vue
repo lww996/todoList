@@ -10,6 +10,7 @@
     <TodoFooter @filtertodo="filterTodo"></TodoFooter>
 
     <p>新增字段</p>
+    <p>新增字段2</p>
   </div>
 </template>
 
