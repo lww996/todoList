@@ -8,6 +8,8 @@
       :todolist="todosLists"
     ></TodoBody>
     <TodoFooter @filtertodo="filterTodo"></TodoFooter>
+
+    <p>新增字段</p>
   </div>
 </template>
 
@@ -16,8 +18,6 @@ import TodoHeader from "./components/TodoHeader";
 import TodoBody from "./components/TodoBody";
 import TodoFooter from "./components/TodoFooter";
 
-// 假设远程仓库更新了
-// let data = { name: "amy" }
 
 export default {
   name: "App",
